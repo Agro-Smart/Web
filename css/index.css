@@ -1,0 +1,32 @@
+/* Agregando los colores en variables para facilitar lectura y cambios del codigo*/
+:root {
+    --color-verde-oscuro: #415b23;
+    --color-verde-medio: #90b77d;
+    --color-verde-claro: #bce8b4;
+    --color-blanco: #eaf4f4;
+}
+
+
+.banner-dev img {
+    width: 100vw;
+    padding-top: 2rem;
+    background-color: var(--color-verde-claro);
+
+}
+
+
+.banner-img {
+    content: url('../img/bannerMovil.png');
+}
+
+@media (min-width: 600px) {
+    .banner-img {
+        content: url('../img/bannerMedio.png');
+    }
+}
+
+@media (min-width: 900px) {
+    .banner-img {
+        content: url('../img/banner.png');
+    }
+}
