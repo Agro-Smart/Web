@@ -10,6 +10,7 @@
 .banner-dev img {
     width: 100vw;
     padding-top: 2rem;
+    max-width: 100vw;
     background-color: var(--color-verde-claro);
 
 }
@@ -17,16 +18,19 @@
 
 .banner-img {
     content: url('../img/bannerMovil.png');
+    max-width: 100vw;
 }
 
 @media (min-width: 600px) {
     .banner-img {
+        max-width: 100vw;
         content: url('../img/bannerMedio.png');
     }
 }
 
 @media (min-width: 900px) {
     .banner-img {
+        max-width: 100vw;
         content: url('../img/banner.png');
     }
 }
