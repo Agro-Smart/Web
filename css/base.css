@@ -13,6 +13,7 @@
 /* Agregando background con degradado*/
 body {
     background-color: var(--color-verde-medio);
+    max-width: 100vw;
     background-repeat: no-repeat;/* Se evita que el fondo se repita */
     background-attachment: fixed;/* Se fija el fondo para que se desplace con el contenido */
     background-size: 100% 100vh;/* El fondo se ajusta para cubrir el 100% del ancho y el 100% del alto de la ventana */
